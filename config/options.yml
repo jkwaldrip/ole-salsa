@@ -1,0 +1,7 @@
+# Options for OLE QA Framework session.
+#   (For more information, see https://github.com/kuali/ole-qa-framework)
+---
+:url: http://tst.ole.kuali.org/
+:docstore_url: http://tst.docstore.ole.kuali.org/
+:headless?: true
+:explicit_wait: 30

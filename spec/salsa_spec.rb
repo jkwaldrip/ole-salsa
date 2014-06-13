@@ -1,6 +1,4 @@
-#!/usr/bin/env ruby
-
-#  Copyright 2005-2013 The Kuali Foundation
+#  Copyright 2005-2014 The Kuali Foundation
 #
 #  Licensed under the Educational Community License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
@@ -12,22 +10,14 @@
 #  distributed under the License is distributed on an "AS IS" BASIS,
 #  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #  See the License for the specific language governing permissions and
-#  limitations under the License.
+#  limitations under the License
 
-$:.unshift(File.dirname(__FILE__))
+require 'rspec'
+require 'spec_helper'
 
-module OLE_QA
-  module Salsa
+describe 'OLE Salsa' do
 
-    require 'ole_salsa/version'
-    require 'yaml'
-    require 'open-uri'
-    require 'watir-webdriver'
-
-    @options = YAML.load_file(File.dirname(__FILE__) + '/../config/options.yml')
-
-    class << self
-      attr_reader :options
-    end
+  it 'has an Options hash' do
+    expect(OLE_QA::Salsa.options).to be_a(Hash)
   end
 end
