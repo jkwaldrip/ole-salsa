@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Configure Options
+
+In the ole-salsa directory, run the following command to configure OLE QA Framework
+options in an interactive configurator:
+
+     rake configurator
+
+Use the following command to see what options are set:
+
+     rake show_config
+
+### Describe Workbench Test
+
+This test opens the Describe Workbench and performs a bare search, then looks
+for a link with any text matching the class used for links in the 'Title' column.
+
+Use the following command to run this test:
+
+    ./bin/workbench_test
 
 ## Contributing
 

@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ole-salsa/version'
+require 'ole_salsa/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ole-salsa"
@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "yard"
   
   spec.add_dependency "watir-webdriver"
-  spec.add_dependency "ole-qa-framework"
+  spec.add_dependency "ole-qa-framework", ">= 3.13.2"
 end

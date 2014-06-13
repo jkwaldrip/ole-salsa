@@ -20,14 +20,16 @@ module OLE_QA
   module Salsa
 
     require 'ole_salsa/version'
-    require 'yaml'
-    require 'open-uri'
-    require 'watir-webdriver'
+    require 'benchmark'
+    require 'ole-qa-framework'
 
     @options = YAML.load_file(File.dirname(__FILE__) + '/../config/options.yml')
 
     class << self
       attr_reader :options
+    end
+
+    class Error < StandardError
     end
   end
 end
