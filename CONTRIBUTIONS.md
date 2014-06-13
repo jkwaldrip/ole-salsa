@@ -18,3 +18,6 @@ This gem relies on the following dependencies:
 * Headless
     * MIT-style License
        * Copyright 2010, Leonid Shevtsov
+* RSpec
+    * MIT License
+        * Copyright 2009, Chad Humphries & David Chelimsky
