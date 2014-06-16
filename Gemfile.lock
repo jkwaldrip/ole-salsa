@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ole-salsa (1.0.1)
+    ole-salsa (1.0.2)
       ole-qa-framework (>= 3.13.2)
       watir-webdriver
 

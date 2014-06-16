@@ -23,7 +23,7 @@ puts
 puts ' This test will perform a search on the describe workbench'
 puts ' and wait for any title to appear in the search results.'
 puts
-puts ' Values higher than :explicit_wait: in config/options.yml'
+puts " Values higher than #{OLE_QA::Salsa.options[:explicit_wait]} seconds (set in config/options.yml)"
 puts ' indicate that results were not returned.'
 puts
 
