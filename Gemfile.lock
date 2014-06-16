@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    ole-salsa (1.0.0)
+    ole-salsa (1.0.1)
       ole-qa-framework (>= 3.13.2)
+      rspec
       watir-webdriver
 
 GEM
