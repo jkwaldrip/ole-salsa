@@ -3,7 +3,6 @@ PATH
   specs:
     ole-salsa (1.0.1)
       ole-qa-framework (>= 3.13.2)
-      rspec
       watir-webdriver
 
 GEM
@@ -46,4 +45,5 @@ DEPENDENCIES
   bundler (~> 1.6)
   ole-salsa!
   rake
+  rspec
   yard
